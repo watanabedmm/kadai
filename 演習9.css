@@ -61,9 +61,8 @@ main{
 	margin: 15px 0 5px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) {
 	main{
-		width: 55%;
 		margin: 50px auto;
 	}
 
@@ -71,7 +70,12 @@ main{
 		float: none;
 		width: 90%;
 		margin-bottom: 20px;
+		margin: 0 auto;
 	}
 	.main-box:last-child{
 	margin-bottom: 0;
-    }}
+	margin: 0 auto;
+    }
+    .main-box:nth-child(2){
+        margin: 20px auto;
+    }
